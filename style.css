@@ -121,6 +121,24 @@
     display: none;
   }
   
+  /* Redirect page. */
+
+  .redirect {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+  }
+
+  .redirect > div > img {
+    width: 400px;
+    margin-top: 50px;
+  }
+
+  .redirect > div > form {
+    margin-top: 20px;
+  }
+
+
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 450px) {
     body {
